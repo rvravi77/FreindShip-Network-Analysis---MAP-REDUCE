@@ -36,5 +36,7 @@ for line in fp:
 ## How to run and test your code:
 Since we do not have access to a Hadoop cluster,it will be tested our on a Linux system as follows:
 ```python3 mapper.py | sort | python3 reducer.py > result.txt```
+OR  on linux kernal execute make files inside every query folder as 
+```~$ make run```
 
 #### Note : Won't be using array or dictionaries of size greater than 10 as it will defer the purpose of implementing map-reduce.
